@@ -1,0 +1,3 @@
+C:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff/build/CMakeFiles/main.dir
+C:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\BENNE\ONEDRIVE\DOCUMENTS\GITHUB\MISC-C-STUFF\BUILD\CMAKEFILES\C337E1C66CD854E6263F22B1C737C944\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff -BC:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/benne/OneDrive/Documents/GitHub/misc-c-stuff/build/Random-Stuff.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
